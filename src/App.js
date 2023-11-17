@@ -1,8 +1,9 @@
-import home from './components/home'
+import Navigationbar from './components/Navigationbar';
+import home from './components/Navigationbar'
 
 function App() {
   return(
-    <home />
+    <Navigationbar />
   )
 }
 

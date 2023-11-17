@@ -1,0 +1,59 @@
+/* Navigation bar */
+.App {
+    display: flex;
+    height: 50px;
+    background-color: #4c4d4e;
+    color: white;
+    padding: 2px;
+   }
+   
+   .App img {
+    margin-left: 90px;
+    height: 40px;
+    width: 40px;
+   }
+   
+   .App i {
+    cursor: pointer;
+    padding: 3px;
+    height: 0.2px;
+   }
+   
+   .App h1{
+    margin-left: 10px;
+    margin-right: 100;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+   }
+   .App h5 {
+    margin-left: 60%;
+    margin-top: 10px;
+    margin-right: 10;
+    font-size: 16px;
+   }
+   
+   /* Navigation bar styling */
+   .App ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2196F3;
+   }
+   
+   .App li {
+    float: left;
+   }
+   
+   .App li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+   
+   .App li a:hover {
+    background-color: #1976D2;
+   }
